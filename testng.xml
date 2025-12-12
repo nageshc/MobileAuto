@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue" name="pCloudy Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="deviceName" value="GOOGLE_Pixel10_Android_16.0.0_8fcb5"/>
+    <classes>
+      <class name="com.pCloudy.testNG.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test1">
+  <parameter name="deviceName" value="GOOGLE_Pixel2XL_Android_11.0.0_64fe3"/>
+    <classes>
+      <class name="com.pCloudy.testNG.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
